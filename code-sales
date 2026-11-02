@@ -156,4 +156,5 @@ def color_count(color):
 colors = ['red', 'yellow', 'green', 'white', 'black', 'blue', 'purple']
 
 for color in colors:
-    print("Thread Shed sold {} threads of {} thread today.".format(color_count(color), color))
+    print("Thread Shed sold {} threads of {} thread today.".format(color_count(color), color)) # pyright: ignore[reportUndefinedVariable]
+
